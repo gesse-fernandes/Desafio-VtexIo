@@ -1,0 +1,66 @@
+.searchBarContainer
+{
+    width: 35rem;
+}
+
+.autoCompleteOuterContainer
+{
+    border: none;
+}
+
+:global(.vtex-styleguide-9-x-input)
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 0;
+    transition: border-color .2s ease-in;
+    letter-spacing: 1.5px;
+}
+:global(.vtex-styleguide-9-x-input):focus
+{
+    border-color: #59ff00;
+}
+:global(.vtex-styleguide-9-x-input)::placeholder
+{
+    transition: color .2s ease-in;
+    color: white;
+}
+:global(.vtex-styleguide-9-x-input):focus::placeholder
+{
+    color: #59ff00;
+}
+
+/*Estilo do icone de busca da searchbar*/
+:global(.vtex-input__suffix)
+{
+    background-color: transparent;
+    display: none;
+}
+:global(.vtex-input-prefix__group)
+{
+    border: none;
+}
+:global(.vtex__icon-search)
+{
+    color: white;
+}
+:global(.vtex-store__template)
+{
+    background-color: #303030;
+}
+
+.imageElement--bannerImage, .imageElement--bannerImage--adjustHeight
+{
+    border-radius: 10px;
+}
+.imageElementLink
+{
+    height: 100%;
+}
+.imageElement--bannerImage--adjustHeight
+{
+    height: inherit;
+}

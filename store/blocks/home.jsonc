@@ -1,0 +1,11 @@
+{
+  "store.home": { 
+    "parent": {
+      "header": "header",
+      "footer": "footer"
+    },
+    "blocks": [
+      "tab-layout#categories"
+    ]
+  }
+}
